@@ -25,3 +25,5 @@ if st.button("Analyze"):
             st.error("Negative 😡")
         else:
             st.info("Neutral 😐")
+
+            st.write("Prediction:", result)
